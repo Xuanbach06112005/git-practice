@@ -1,1 +1,1 @@
-float read_temp(){ return 28.5;}
+float read_temp() { return 25.0;}
