@@ -1,0 +1,16 @@
+name: C Build Check
+
+on: [push, pull_request]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tai ma nguon ve may ao
+        uses: actions/checkout@v4
+
+      - name: Bien dich thu bang GCC
+        run: |
+          gcc -c main.c -o main.o
+          gcc -c uart.c -o uart.o
+          gcc -c sensor.c -o sensor.o

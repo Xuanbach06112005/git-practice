@@ -1,20 +1,7 @@
-# Thu muc chua file bien dich
 build/
-Debug/
-Release/
-
-# Cac file object va file thuc thi C/C++ / STM32
 *.o
-*.d
 *.elf
 *.bin
 *.hex
-*.map
 *.exe
-
-# Cau hinh ca nhan cua trinh soan thao
 .vscode/
-
-# File chua mat khau Wi-Fi / API Key
-config.h
-.env
